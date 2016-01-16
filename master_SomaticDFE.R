@@ -146,7 +146,7 @@ legend("bottomright",legend=1:7,fill=rainbow(iter))
 #just ran the human scenario and lambda.0 differs in that scenario
 plot(c(0.2,expected.vec.mouseexp)/0.2,x=0:8, ylab="Expected value of division rate 
      divided by the original division rate",xlab="Fixed mutation number", cex.lab=1.5,cex.axis=1.5,main="Ratio of the expected value of the division rate 
-     to the original division rate given fixed mutations in mice",cex=2,pch=19)
+     to the original division rate given fixed mutations in mice and humans",cex=2,pch=19)
 points(c(lambda.0,expected.vec.humanexp[1:8])/lambda.0,x=0:8,pch=18,cex=2,col="red")
 legend("bottomleft", c("Mice","Humans      "),cex=2, pch=c(19,18),col=c("black","red"))
 #############
